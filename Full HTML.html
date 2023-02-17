@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>HTML  Basics</title>
+
+
+ <style>
+  input[type='text'],
+  input[type='email'],
+  input[type='tel']{
+    border: none;
+    border-bottom: 1px solid gray;
+    width: 150px;
+    padding: 10px;
+    font-family: sans-serif;
+  }
+  .para{
+    background-color: rgb(148, 233, 233);
+    color: red;
+    font-size: 30px;
+  }
+ </style>
+
+</head>
+<body>
+
+
+
+<p class="para">Input type Formatting element tag <big>[To design our TEXT using only HTML tags]</big> <br>
+ | <b>This is bold</b>              <br>
+ | <mark> This is mark</mark>       <br>
+ | <small> This is small</small>    <br>
+ | <del>This is del</del>           <br>
+ | <ins>This is ins</ins>           <br>
+ | This is sup tag  X<sup>2</sup>   <br>
+ | This is sub tag H <sub>2</sub>O  <br>
+ | This is A++ Grade University  <abbr title="Jamia Millia Islamia">JMI</abbr><br> </p>
+
+ <hr width="930px" height="55px" color=blue >
+ <h2>Input type form attributes (Jo input tag ke andar likhte hain)</h2>
+ <label for="">Name:</label>
+<input type="text" value="JAMIA" autocomplete="on" required><br>
+
+readonly:
+<input type="text" value="JAMIA" readonly="readonly"><br>
+
+Name:
+<input type="text" value="JAMIA" readonly="readonly" disabled><br>
+
+size:
+<input type="text" value="JAMIA" readonly="readonly" size="500"><br>
+
+maxlength & minlength (cam enter only min 10 & max 20 letters)
+<input type="text" value="JAMIA" maxlength="20"><br>
+<input type="number" value="JAMIA"  min="10" max="20"><br>
+
+Multiple attributes use to uploade multiple file : 
+<input type="file" value="uploade" multiple> <br>
+
+step(use to put only multiple of particular number ):
+<input type="number" step="3" >
+
+width: 
+<input type="text" width="300">
+
+
+<hr width="930px" height="10px" color=red >
+ <!-- <hr> -->
+<form action="">
+ <h2>
+  <h3>Types of input tag</h3>
+   <label for="">First Name:</label>
+   <input type="text" placeholder="name"><br>
+
+   <label for="">Checkbox:</label>
+   <input type="checkbox" ><br>
+
+   <label for="">Select color:</label>
+   <input type="color" ><br>
+
+   <label for="">date:</label>
+   <input type="date"><br>
+
+   <label for="">datetime-local:</label>
+   <input type="datetime-local"><br>
+
+   <label for="">Email:</label>
+   <input type="email"><br>
+
+   <label for="">File:</label>
+   <input type="file"><br>
+
+   <label for="">This is hidden:</label>
+   <input type="hidden"><br>
+ 
+   <label for="">date:</label>
+   <input type="month"><br>
+
+   <label for="">Number:</label>
+   <input type="number"><br>
+
+   <label for="">Password:</label>
+   <input type="password"><br>
+
+   <label for="">Radio:</label>
+   <input type="radio"><br>
+
+   <label for="">Range:</label>
+   <input type="range"><br>
+
+   <label for="">Search Box:</label>
+   <input type="search"><br>
+
+   <label for="">Submit:</label>
+   <input type="submit"><br>
+
+   <label for="">Tel(telephone):</label>
+   <input type="tel"><br>
+
+   <label for="">Time</label>
+   <input type="time"><br>
+
+<button type="submit">SUBMIT</button>
+</h2>
+
+<hr color="green" width="1200" >
+<form action="">
+
+  <label for="">Name:</label>
+  <input type="text" placeholder="Name"><br><br>
+
+  <label for="">Email:</label>
+  <input type="email" placeholder="Email"><br><br>
+
+  <label for="">Contact:</label>
+  <input type="tel" placeholder="Number"><br><br>
+
+  <!-- <label for="">Submit:</label> -->
+  <input type="button" value="Submit"> 
+
+
+</form>
+
+
+
+<hr color="yellow" height="120", width="1000" >
+
+<center>
+
+  <span>
+  <iframe width="400" height="315" src="https://www.youtube.com/embed/Uq8oa-AunOQ?autoplay=2&mute=0" title="YouTube video player" 
+  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; 
+  web-share" allowfullscreen></iframe>
+  </span>
+  <span>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14016.991713743662!2d77.2803832!3d28.5623169!3m2
+    !1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce38acd1105e9%3A0xc7a86610a5a612d9!2sJamia%20Millia%20Islamia!5e0!3m2!1sen!2s
+    in!4v1676055503851!5m2!1sen!2sin" width="400" height="320" style="border:0;" allowfullscreen="" loading="lazy" 
+    referrerpolicy="no-referrer-when-downgrade">Jamia Millia Islamia</iframe>
+  </span>
+
+</center>
+
+
+
+</body>
+</html>
